@@ -2,40 +2,61 @@
 @import "_includes/variables.scss";
 @import "_includes/mixins.scss";
 
-header {
-    background: rgba(252, 62, 158);
-    height: 100px;
-    width: 100%;
-}
 
-main {
-    background: rgba(255, 255, 255);
-
-    // ON PEUT CALCULER DES CHOSES EN PURE CSS
-    height: calc(100vh - 100px * 2);
+// body {
+//     font-family: $primary-font;
+//     font-size: 24px;
     
-    // GRID SETTINGS
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    grid-gap: 1rem;
-}
+// }
 
-.image-section {
-    padding: 1rem;
-    
-}
+// main {
+//     width: 100vw;
+// }
 
-.image-section img {
-    width: 100%;
-}
+// section {
+//     display: grid;
+//     height: 100vh;
 
-.text-section {
-    padding: 1rem;
-}
+//     &.one-column {
+//         grid-template-columns: 1fr;
+//     }
+//     &.two-columns, &.two-columns--reversed {
+//         grid-template-columns: 1fr 1fr;
+//     }
+//     &.two-columns--reversed {
+//         .first-column {
+//             order: 2;
+//         }
+//         .second-column {
+//             order: 1;
+//         }
+//     }
+// }
 
-footer {
-    background: rgba(252, 62, 158);
-    height: 100px;
-}
+// .image-background {
+//     background-color: $secondary-color;
+//     color: $primary-color;
+// }
+
+// .first-column {
+//     background-color: $secondary-color;
+//     color: $primary-color;
+//     position: relative;
+// }
+
+// .top-text {
+//     margin-left: $margin;
+//     margin-top: $margin;
+   
+// }
+
+// .section-title {
+//     bottom: 0;
+//     line-height: 12px;
+//     margin-bottom: $margin;
+//     margin-left: $margin;
+//     position: absolute;
+//    h1 {
+//        font-size: 64px;
+//    }
+// }
